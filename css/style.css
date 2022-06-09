@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.MenuFisso{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 999;
+    top: 0px;
+    left: 0px;
+}
+.partedx, .partesx{
+    display: flex;
+    align-items: center;
+}
+
+button{
+    background-color: #0061ff;
+    color: white;
+    margin-right: 10px; 
+    border: none;  
+}
+
+.partedx *, .partesx *{
+    padding: 10px;
+    font-size: 10px;
+}
+.partedx img{
+    height: 40px;
+
+}
+
+.flex{
+    display: flex;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+    padding-top: 30px;
+}
+.sez1{
+    background-color:#b4d0e7;
+    width: 100%;
+    margin-top: 50px;
+    height: calc(104vh - 50px);
+    
+} .sez1 h1{
+    padding-top: 50px;
+    font-size: 50px;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    width: 60%;
+    height: 100%;
+    justify-content: space-between;
+}
+.contenitore{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.testo{
+    width: 40%;
+}
+.immagine{
+    width: 60%;
+    height: 100%;
+}
+
+.immagine img{
+    width: 100%;
+    height: 100%;
+}
+#prova{
+    padding:10px;
+    margin-top: 20px;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+.testo i{
+    font-size: 40px;
+    margin-top: 40px;
+}
