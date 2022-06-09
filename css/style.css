@@ -39,13 +39,6 @@ button{
 
 }
 
-.flex{
-    display: flex;
-    width: 60%;
-    margin: auto;
-    justify-content: center;
-    padding-top: 30px;
-}
 .sez1{
     background-color:#b4d0e7;
     width: 100%;
@@ -87,7 +80,7 @@ button{
 #prova{
     padding:10px;
     margin-top: 20px;
-    font-size: 10px;
+    font-size: 13px;
     margin-bottom: 20px;
 }
 
@@ -95,3 +88,89 @@ button{
     font-size: 40px;
     margin-top: 40px;
 }
+
+.sezione2{
+    width: 60%;
+    margin: auto;
+    padding-top: 70px;
+}
+
+.sezione2 h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.selezione{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: solid 5px #0061ff;
+    display: inline-block;
+    margin-right: 5px;
+}
+.selezione2{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    border: solid 1px black;
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.container2{
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+    justify-content: space-between;
+}
+
+.sceltaAbbonamento{
+    border: solid 1px black;
+    width: calc(95% / 3);
+    
+}
+
+.tipo{
+    padding:6px;
+    text-align: center;
+}
+.DescrizAbb{
+    padding: 20px;
+}
+
+.prezzo{
+    text-align: left;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.allinea{
+    margin-top: 20px;
+}
+
+.allinea:nth-child(3) {
+    margin-top: 40px;
+}
+
+.prova{
+    padding: 10px;
+    margin-top: 50px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+h4{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.puntiSalienti i{
+    color: #0061ff;
+}
+
+.puntiSalienti{
+    margin-bottom: 20px;
+}
+
