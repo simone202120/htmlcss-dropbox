@@ -43,7 +43,7 @@ button{
     background-color:#b4d0e7;
     width: 100%;
     margin-top: 50px;
-    height: calc(104vh - 50px);
+    height: calc(100vh - 50px);
     
 } .sez1 h1{
     padding-top: 50px;
@@ -89,10 +89,15 @@ button{
     margin-top: 40px;
 }
 
+.testo p{
+    font-size: 13px;
+}
+
 .sezione2{
     width: 60%;
     margin: auto;
     padding-top: 70px;
+    margin-bottom: 70px;
 }
 
 .sezione2 h1{
@@ -213,6 +218,7 @@ h4{
     width: 100%;
     margin: auto;
     display: flex;
+    margin-bottom: 100px;
 }
 .box70 img{
     width: 100%;
@@ -232,4 +238,113 @@ h4{
 #spaziatura{
     margin-top: 40px;
     margin-left: 40px;
+}
+
+.box img{
+   width: 80%;
+   text-align: center;
+   margin-bottom: 30px;
+   margin-top: 40px;
+
+}
+.box{
+    width: calc(98% / 3);
+    padding: 5px;
+    
+}
+#proprietà{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box h3{
+    margin-bottom: 30px;
+}
+
+#team{
+    margin-top: 170px;
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.partner{
+    display: flex;
+    width: 100%;
+    
+}
+
+.partnerimg{
+    display: flex;
+    width: calc(100% / 3);
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+   
+}
+
+.logo img{
+    height: 50%;
+    width: 50%;
+    margin:auto
+}
+
+.logopartner{
+    width: 50%;
+    height: 50%;
+}
+
+#logo1 .logo{
+    background-color: #a2d39b;
+}
+#logo2 .logo{
+    background-color: #61082b;
+}
+#logo3 .logo{
+    background-color: #0093ce;
+}
+#logo4 .logo{
+    background-color: #ff1c1c;
+}
+#logo5 .logo{
+    background-color: #f5f5f5;
+}
+#logo6 .logo{
+    background-color: #d5001f;
+}
+#logo7 .logo{
+    background-color: #b4d0e7;
+}
+#logo8 .logo{
+    background-color: #0d2481;
+}
+#logo9 .logo{
+    background-color: #ffd830;
+   
+}
+
+#logo5{
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+}
+.centrale{
+  width: 100%;
+  padding-top: 50px;
+  margin-bottom: 40px;
+}
+.logopartner p{
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+hr{
+    width: 200px;
+    height: 1px;
 }
